@@ -1,0 +1,22 @@
+name: lingdongtinghu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingdongtinghu
+        env:
+          kzl5: ${{ secrets.kzl5 }}
+        run: |
+          echo $kzl5 | jq -r .lgja2356 | /bin/bash
+          echo $wc292 | jq -r .fvnfy410 | /bin/bash
+          echo $ijvqt710 | jq -r .trln9 | /bin/bash
+          echo $iegzf52185 | jq -r .g4 | /bin/bash
+          echo $jchpp2 | jq -r .tgtmx7630 | /bin/bash
+          echo $n01655 | jq -r .uvp592 | /bin/bash
+          echo $sm30145 | jq -r .iysh14 | /bin/bash
+
