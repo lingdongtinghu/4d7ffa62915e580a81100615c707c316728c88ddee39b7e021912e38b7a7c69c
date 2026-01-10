@@ -1,9 +1,8 @@
 name: lingdongtinghu
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
+    - cron: '48 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: lingdongtinghu
         env:
-          f94850: ${{ secrets.f94850 }}
+          syy779: ${{ secrets.syy779 }}
         run: |
-          echo $f94850 | jq -r .bjr7472 | /bin/bash
-          echo $djti044 | jq -r .y645 | /bin/bash
-          echo $lm58 | jq -r .eizvj4 | /bin/bash
-          echo $o2 | jq -r .lu21 | /bin/bash
-          echo $mlx366 | jq -r .khf225 | /bin/bash
-          echo $flgx81667 | jq -r .rqsv2 | /bin/bash
-          echo $hfcra69 | jq -r .r4 | /bin/bash
-          echo $voyys210 | jq -r .p05550 | /bin/bash
-          echo $fot3 | jq -r .nt66333 | /bin/bash
-          echo $xxp92798 | jq -r .edrg9 | /bin/bash
+          echo $syy779 | jq -r .ajepw10322 | /bin/bash
+          echo $uv63875 | jq -r .wqre35545 | /bin/bash
+          echo $rmwyw37 | jq -r .lgh69125 | /bin/bash
+          echo $wh9 | jq -r .sfic3431 | /bin/bash
 
